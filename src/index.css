@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.MuiButtonBase-root {
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+}
+
+.MuiListItemText-root .MuiTypography-root{
+  font-weight: 500 !important;
+  color: 'black' !important
+}
+
+.MuiListItemIcon-root {
+  min-width: 40px !important;
+}
+
+.apexcharts-toolbar{
+  display: none !important;
+}
+
+.apexcharts-canvas {
+  margin: auto;
+}
+
+.apexcharts-legend {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  padding-top: 25px;
+  justify-content: center;
+  margin-left: auto;
+}
+
+main.MuiBox-root{
+  padding: 0 !important;
+}

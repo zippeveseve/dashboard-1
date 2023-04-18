@@ -1,0 +1,53 @@
+{
+  "statsCards": [
+    {
+      "title": "Carbon FootPrint",
+      "percentage": "-45",
+      "count": 2412314,
+      "fromPercentage": 0
+    },
+    {
+      "title": "Emissions by spinning",
+      "percentage": "-60",
+      "count": 723694,
+      "fromPercentage": 0
+    },
+    {
+      "title": "Emissions by transportation",
+      "percentage": "0",
+      "count": 361874,
+      "fromPercentage": 0
+    },
+    {
+      "title": "Emissions by Carding",
+      "percentage": "+0.6",
+      "count": 241231,
+      "fromPercentage": 4.6
+    }
+  ],
+  "colChartData": {
+    "series": [
+      {
+        "name": "Spinning",
+        "data": [120000, 130000, 140000, 160000, 100000, 120000]
+      },
+      {
+        "name": "Transportation",
+        "data": [40000, 25000, 40000, 20000, 30000, 40000]
+      },
+      {
+        "name": "Carding",
+        "data": [40000, 35000, 40000, 50000, 20000, 30000]
+      },
+      {
+        "name": "Heating & Cooling",
+        "data": [40000, 30000, 35000, 35000, 25000, 50000]
+      }
+    ],
+    "Xaxis": ["Jan", "Feb", "Mar", "Apr", "May", "Jun"]
+  },
+  "pieChartData": {
+    "series": [20, 40, 20, 20],
+    "labels": ["Spinning", "Transportation", "Carding", "Heating & Cooling"]
+  }
+}
